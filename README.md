@@ -1,8 +1,9 @@
 <div align="center">
 
+<!-- Pin artwork revisions so GitHub image caches show the current design. -->
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-still.svg?v=motion-1">
-  <img src="assets/hero.svg?v=motion-1" alt="jibanso — AI 编程开发者 / 千早爱音与 MyGO!!!!! 主题主页" width="100%">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/jibanso/jibanso/8980c5db0ba6ea0b0914e081a04a8bd23a019ecf/assets/hero-still.svg">
+  <img src="https://raw.githubusercontent.com/jibanso/jibanso/8980c5db0ba6ea0b0914e081a04a8bd23a019ecf/assets/hero.svg" alt="jibanso — AI 编程开发者 / 千早爱音与 MyGO!!!!! 主题主页" width="100%">
 </picture>
 
 <br>
@@ -20,8 +21,8 @@
 <br>
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/setlist-still.svg?v=motion-1">
-  <img src="assets/setlist.svg?v=motion-1" alt="AI Coding Setlist：八种常用语言与技术" width="100%">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/jibanso/jibanso/8980c5db0ba6ea0b0914e081a04a8bd23a019ecf/assets/setlist-still.svg">
+  <img src="https://raw.githubusercontent.com/jibanso/jibanso/8980c5db0ba6ea0b0914e081a04a8bd23a019ecf/assets/setlist.svg" alt="AI Coding Setlist：八种常用语言与技术" width="100%">
 </picture>
 
 <br>
