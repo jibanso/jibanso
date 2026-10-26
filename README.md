@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="jibanso — 千早爱音 / MyGO!!!!! 主题开发者主页" width="100%">
+<img src="assets/hero.svg" alt="jibanso — AI 编程开发者 / 千早爱音与 MyGO!!!!! 主题主页" width="100%">
 
 <br>
 
-**Go · Java · HTML · CSS · JavaScript · Vue · Python · Rust**
+**AI 编程开发者 · AI-assisted developer**
 
-服务端、Web、脚本与系统。写代码，也喜欢 MyGO!!!!!。
+使用 AI 编程，把想法做成作品。也喜欢 MyGO!!!!! 和千早爱音。
+
+常用技术：Go · Java · HTML · CSS · JavaScript · Vue · Python · Rust
 
 [GitHub](https://github.com/jibanso) · [Repositories](https://github.com/jibanso?tab=repositories) · [MyGO!!!!!](https://bang-dream-gbp-en.bushiroad.com/mygo/)
 
@@ -14,7 +16,7 @@
 
 <br>
 
-<img src="assets/setlist.svg" alt="Development Setlist：八种常用语言与技术" width="100%">
+<img src="assets/setlist.svg" alt="AI Coding Setlist：八种常用语言与技术" width="100%">
 
 <br>
 

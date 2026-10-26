@@ -74,22 +74,22 @@ def hero(username):
 {strings}{sparks}
 <circle cx="820" cy="200" r="230" fill="url(#pink-glow)"/>
 <text x="58" y="52" fill="{PINK}" font-size="19" font-weight="700" letter-spacing="2">MyGO!!!!!</text>
-<text x="58" y="79" fill="#9bb5d3" font-size="11" class="mono" letter-spacing="2.5">A DEVELOPER'S PERSONAL SETLIST</text>
+<text x="58" y="79" fill="#9bb5d3" font-size="11" class="mono" letter-spacing="2.5">AI CODING / A PERSONAL SETLIST</text>
 <path d="M58 105H105" stroke="{PINK}" stroke-width="3"/>
 <text x="52" y="206" fill="#f7f2f5" font-size="94" font-weight="800" letter-spacing="-4">{escape(username)}</text>
-<text x="60" y="247" fill="{BLUE}" font-size="23" font-weight="600">Code in my own rhythm.</text>
-<text x="60" y="282" fill="#bccbe0" font-size="17">把热爱写进每一次提交。</text>
+<text x="60" y="247" fill="{BLUE}" font-size="23" font-weight="600">Build with AI. Keep my own rhythm.</text>
+<text x="60" y="282" fill="#bccbe0" font-size="17">AI 编程开发者 / 把想法做成作品。</text>
 {''.join(chips)}
 <image x="505" y="-188" width="632" height="1042" xlink:href="data:image/png;base64,{portrait}"/>
 <rect x="0" y="465" width="1000" height="65" fill="#091525" opacity=".88"/>
 <path d="M58 488H122" stroke="{PINK}" stroke-width="3"/>
 <text x="136" y="493" fill="#edf2fc" font-size="12" class="mono" letter-spacing="2">GO · JAVA · WEB · PYTHON · RUST</text>
 <text x="940" y="493" fill="{PINK}" font-size="12" class="mono" text-anchor="end">ANON / GT.</text>
-<text x="58" y="514" fill="#7e99b8" font-size="10" class="mono">JIBANSO — PERSONAL DEVELOPER PROFILE</text>
+<text x="58" y="514" fill="#7e99b8" font-size="10" class="mono">JIBANSO — AI CODING DEVELOPER</text>
 <g transform="translate(944 38)"><path d="M0 0V390" stroke="#d1d9ef" stroke-opacity=".24" stroke-dasharray="2 6"/><text transform="translate(22 5) rotate(90)" fill="#bbd4ed" font-size="10" class="mono" letter-spacing="3">CHIHAYA ANON / MyGO!!!!!</text></g>
 '''
     defs = '<linearGradient id="night" x2="1" y2="1"><stop stop-color="#0d1c30"/><stop offset=".65" stop-color="#1a2844"/><stop offset="1" stop-color="#3e2d4b"/></linearGradient><radialGradient id="pink-glow"><stop stop-color="#ffb7cb" stop-opacity=".28"/><stop offset="1" stop-color="#ffb7cb" stop-opacity="0"/></radialGradient>'
-    return svg(1000, 530, body, f"{username} — 千早爱音与 MyGO!!!!! 主题开发者主页", defs=defs)
+    return svg(1000, 530, body, f"{username} — AI 编程开发者 / 千早爱音与 MyGO!!!!! 主题主页", defs=defs)
 
 
 def setlist():
@@ -99,8 +99,8 @@ def setlist():
         x, y = 46 + col * 468, 116 + row * 43
         rows.append(f'<text x="{x}" y="{y}" fill="#bd5775" font-size="13" class="mono">{index+1:02d}</text><text x="{x+42}" y="{y}" fill="#263549" font-size="21" font-weight="650">{name}</text><text x="{x+393}" y="{y}" text-anchor="end" fill="#718196" font-size="10" class="mono" letter-spacing="1">{category}</text><path d="M{x} {y+14}H{x+394}" stroke="#d5dbe4"/>')
     body = f'''<path d="M0 0H1000V7H0Z" fill="{PINK}"/>
-<text x="46" y="47" fill="#20354c" font-size="23" font-weight="750" letter-spacing="2">DEVELOPMENT SETLIST</text>
-<text x="46" y="72" fill="#728294" font-size="11" class="mono">8 TECHNOLOGIES / ONE CONTINUOUS SESSION</text>
+<text x="46" y="47" fill="#20354c" font-size="23" font-weight="750" letter-spacing="2">AI CODING SETLIST</text>
+<text x="46" y="72" fill="#728294" font-size="11" class="mono">AI-ASSISTED / 8 LANGUAGES &amp; TECHNOLOGIES</text>
 {''.join(rows)}<path d="M960 30V294" stroke="#c5ccd6" stroke-dasharray="3 5"/>
 <text transform="translate(982 45) rotate(90)" fill="#9a667c" font-size="10" class="mono" letter-spacing="3">JIBANSO / ALL ACCESS</text>
 <circle cx="0" cy="164" r="13" fill="#0d1117"/><circle cx="1000" cy="164" r="13" fill="#0d1117"/>'''
@@ -118,12 +118,12 @@ def terminal(username, user, repos, now):
             blocks.append(f'<path d="M{x+204} 310V370" stroke="#304258"/>')
     equalizer = ''.join(f'<rect x="{748+i*10}" y="{72-(i%5)*4}" width="4" height="{12+(i%5)*4}" rx="2" fill="{PINK}" opacity=".5" class="pulse" style="animation-delay:{i*.15}s"/>' for i in range(18))
     body = f'''<rect width="1000" height="95" fill="#182b43"/>
-<text x="44" y="38" fill="{PINK}" class="mono" font-size="11" letter-spacing="3">BACKSTAGE / DEVELOPMENT SESSION</text>
+<text x="44" y="38" fill="{PINK}" class="mono" font-size="11" letter-spacing="3">BACKSTAGE / AI CODING SESSION</text>
 <text x="44" y="72" fill="#edf3fb" font-size="24" font-weight="650">{escape(username)}@github</text>{equalizer}
 <text x="44" y="135" fill="{BLUE}" font-size="15" class="mono">&gt; whoami</text>
-<text x="67" y="164" fill="#e0e8f4" font-size="15" class="mono">{escape(username)}</text>
-<text x="44" y="207" fill="{BLUE}" font-size="15" class="mono">&gt; cat interests.txt</text>
-<text x="67" y="237" fill="#d0ddec" font-size="15" class="mono">Backend / Web / Tools / Systems / MyGO!!!!!</text>
+<text x="67" y="164" fill="#e0e8f4" font-size="15" class="mono">{escape(username)} / AI-assisted developer</text>
+<text x="44" y="207" fill="{BLUE}" font-size="15" class="mono">&gt; cat workflow.txt</text>
+<text x="67" y="237" fill="#d0ddec" font-size="15" class="mono">Ideas + AI coding + iteration / MyGO!!!!!</text>
 <text x="44" y="280" fill="{BLUE}" font-size="15" class="mono">&gt; github --public-snapshot</text>
 {''.join(blocks)}
 <path d="M44 392H956" stroke="#304258"/>
