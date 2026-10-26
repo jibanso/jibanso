@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="jibanso — AI 编程开发者 / 千早爱音与 MyGO!!!!! 主题主页" width="100%">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-still.svg?v=motion-1">
+  <img src="assets/hero.svg?v=motion-1" alt="jibanso — AI 编程开发者 / 千早爱音与 MyGO!!!!! 主题主页" width="100%">
+</picture>
 
 <br>
 
@@ -16,18 +19,26 @@
 
 <br>
 
-<img src="assets/setlist.svg" alt="AI Coding Setlist：八种常用语言与技术" width="100%">
-
-<br>
-
-<img src="https://raw.githubusercontent.com/jibanso/jibanso/output/terminal.svg" alt="公开 GitHub 统计：仓库、关注者、原创仓库 Stars 和常用技术数量" width="100%">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/setlist-still.svg?v=motion-1">
+  <img src="assets/setlist.svg?v=motion-1" alt="AI Coding Setlist：八种常用语言与技术" width="100%">
+</picture>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jibanso/jibanso/output/contributions-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jibanso/jibanso/output/contributions.svg">
-  <img alt="粉色贡献蛇沿真实 GitHub 公开贡献图前进" src="https://raw.githubusercontent.com/jibanso/jibanso/output/contributions.svg" width="100%">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/jibanso/jibanso/output/terminal-still.svg?v=motion-1">
+  <img src="https://raw.githubusercontent.com/jibanso/jibanso/output/terminal.svg?v=motion-1" alt="公开 GitHub 统计：仓库、关注者、原创仓库 Stars 和常用技术数量" width="100%">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jibanso/jibanso/output/contributions-dark-still.svg?v=motion-1">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/jibanso/jibanso/output/contributions-still.svg?v=motion-1">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jibanso/jibanso/output/contributions-dark.svg?v=motion-1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jibanso/jibanso/output/contributions.svg?v=motion-1">
+  <img alt="粉色贡献蛇沿真实 GitHub 公开贡献图前进" src="https://raw.githubusercontent.com/jibanso/jibanso/output/contributions.svg?v=motion-1" width="100%">
 </picture>
 
 <div align="center">

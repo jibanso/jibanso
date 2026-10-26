@@ -50,7 +50,7 @@ jobs:
               const blob = await github.rest.git.createBlob({ owner, repo, content, encoding: 'base64' });
               tree.push({ path: name, mode: '100644', type: 'blob', sha: blob.data.sha });
             }
-            if (tree.length !== 5) throw new Error('Expected all five profile SVGs');
+            if (tree.length !== 10) throw new Error('Expected five animated and five still profile SVGs');
             const generated = await github.rest.git.createTree({ owner, repo, tree });
             // GITHUB_TOKEN uses the GitHub App identity. Do not supply personal authors or keys.
             const commit = await github.rest.git.createCommit({
